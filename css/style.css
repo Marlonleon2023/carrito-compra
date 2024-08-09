@@ -1,0 +1,58 @@
+.container{
+    margin-left: 30%;
+    margin-top: 10%;
+    background-color: rgb(255, 255, 255);
+    margin-right: 30%;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 1px 1px 1px rgba(5, 6, 7, 0.267);
+}
+
+.button{
+    margin-left: 10px;
+    border: 1px solid rgb(17, 72, 123);
+    font-size: 30px;
+    width: 35px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.button-1{
+    font-size: 25px;
+    border: none;
+    background-color: white;
+
+}
+
+.button-1:hover{
+    color: red;
+}
+.span-val{
+    margin-left: 10px;
+    font-size: 35px;
+}
+
+.cart-img{
+    position: absolute;
+    width: 40px;
+}
+.card-img-cel{
+    width: 180px;
+    position: absolute;
+    margin-left: 310px;
+    display: flex;
+    top: 160px;
+}
+
+.boody{
+    background-color: rgb(205, 205, 205);
+}
+
+.price{
+    
+    display: flex;
+    margin-left: 26%;
+    position: absolute;
+    margin-top: 50px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="boody">
+    
+<div class=" container">
+    <h1>Carrito De compras </h1>
+
+    <div class="content">
+        <div class="container-content">
+            <div class="card">
+                <h2><i class="fa-solid fa-cart-shopping"></i><span class="valor">0</span></h2>
+                <h3>Total <span id="totel">0</span></h3>
+                
+                <img class="card-img-cel" src="/images/images-removebg-preview.png" alt="">
+                <h3 class="price">Precio:<span id="stock">800.000</span></h3>
+            </div>
+            <button id="incremento" onclick="incremento()" class="button">+</button>
+            <button id="decremento" onclick="decremento()"  class="button">-</button>
+            <button id="resetear" onclick="resetear()"  class="button-1"><i class="fa-solid fa-trash"></i></button>
+        </div>
+    </div>
+</div>
+
+    <section>
+    <h3>Total <span class="valor">0</span></h3>
+    </section>
+
+
+<script src="/js/app.js"></script>
+</body>
+</html>

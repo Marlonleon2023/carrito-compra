@@ -19,12 +19,13 @@ const toCompra=document.getElementById('stock')
 // formateamos para que tengan puntos
 
 const producto=parseFloat(toCompra.textContent.replace(/\./g,""))
-const produtformate = producto.toLocaleString('es-CO');
+
 
 
 
 function incremento(){
         contador+=1
+        
         actualizarCarrito()
 }
 
@@ -55,3 +56,8 @@ function actualizarCarrito(){
     produt.innerHTML=(contador*producto).toLocaleString("es-CO") ;
 
 }
+
+
+document.getElementById("incremento").onclick = incremento;
+document.getElementById("decremento").onclick = decremento;
+document.getElementById("resetear").onclick = resetear;
